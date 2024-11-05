@@ -7,3 +7,7 @@ As a newbie to the Tech world, precisely Data Analysis it is mandatory to learn 
 2. Practice using Excel for data analysis.
 3. Learn basic SQL queries.
 4. Create a simple Power BI dashboard.
+
+## Requirements 
+To get started, It is essential to have a good laptop have all the app necessary installed. Microsoft Excel, SQL (My SQL, ProsgreSQL and Power Bi. are to be installed for effectively learning.
+
