@@ -11,3 +11,7 @@ As a newbie to the Tech world, precisely Data Analysis it is mandatory to learn 
 ## Requirements 
 To get started, It is essential to have a good laptop have all the app necessary installed. Microsoft Excel, SQL (My SQL, ProsgreSQL and Power Bi. are to be installed for effectively learning.
 
+## Use of the Apps
+- **Excel**: For data organization, analysis, and visualization.
+- **SQL**: For data extraction, manipulation, and querying.
+- **Power BI**: For building interactive dashboards and reports.
