@@ -65,7 +65,8 @@ validate your queries.
   -  top-performing products
   -  regional breakdowns.
 
-- Here are the analysis to the instruction given. Starting with **SQL**.
+- Here are the analysis to the instruction given.
+- Starting with **SQL QUERIES**.
 
 ### Create database
 ```Select * from [Cleaned sales data]
@@ -114,3 +115,6 @@ from [Cleaned Sales data]
 where orderdate>= dateadd(quarter,-1, getdate()) and orderdate<getdate());
 ```
 
+- Below are the visualization of both **Excel** and **Power Bi** respectively
+
+  
