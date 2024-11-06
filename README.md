@@ -41,13 +41,13 @@ You will need to explore sales data to uncover key insights such as top-selling 
 performance, and monthly sales trends. The goal is to produce an interactive Power BI
 dashboard that highlights these findings.
 Instructions:
-## Excel:
+### Excel:
 - Initial exploration of the sales data. Use pivot tables to summarize
     - total sales by product.
     - region and month.
     - Use Excel formulas to calculate metrics such as average sales per product and total revenue by region.
     - Create any other interesting report
-## SQL:
+### SQL:
 Hint – You need to load the dataset into your SQL Server environment to write and
 validate your queries.
     - retrieve the total sales for each product category.
@@ -58,7 +58,7 @@ validate your queries.
     - find the top 5 customers by total purchase amount.
     - calculate the percentage of total sales contributed by each region.
     - identify products with no sales in the last quarter.
-## Power BI:
+### Power BI:
 - Create a dashboard that visualizes the insights found in Excel and SQL. 
   -  sales overview
   -  top-performing products
