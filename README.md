@@ -27,6 +27,7 @@ To get started, It is essential to have a good laptop have all the app necessary
   - For visualization
     
 - Github is for portfolio building.
+  
 
 ## Overview of Capstone project
 - This is a project given by the facilitator to put to test all that has been taught in the class.
@@ -64,6 +65,10 @@ validate your queries.
   -  top-performing products
   -  regional breakdowns.
 
-
-
+- Here are the analysis to the instruction given
+  **SQL**
+- select*from [Cleaned Sales data]
+select product, sum(quantity*unitprice) as totalsales 
+from [Cleaned Sales data]
+group by Product
 
