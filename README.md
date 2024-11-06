@@ -68,8 +68,8 @@ validate your queries.
 - Here are the analysis to the instruction given. Starting with SQL.
 
 
-''' SQL
-Select * from [Cleaned sales data]
+
+'''Select * from [Cleaned sales data]
 select product, sum(quantity*unitprice) as totalsales
 from [cleaned sales data]
 group by product
