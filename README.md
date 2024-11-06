@@ -67,10 +67,50 @@ validate your queries.
 
 - Here are the analysis to the instruction given. Starting with **SQL**.
 
-
+### Create database
 ```Select * from [Cleaned sales data]
 select product, sum(quantity*unitprice) as totalsales
 from [cleaned sales data]
 group by product
+```
+```select region,count(*)as
+numberoftransactions 
+from [Cleaned Sales data]
+group by Region
+```
+```select top 1 product, 
+sum(cast(quantity as int) *cast(unitprice as int)) as totalsales
+from [Cleaned Sales data]
+group by product
+order by TotalSales desc;
+```
+```select month(orderdate) as month,
+sum(cast(quantity as int)* cast(unitprice as decimal(10,2))) as monthlysales
+from [Cleaned Sales data]
+where year(orderdate)=year(getdate())
+group by month(orderdate)
+order by month;
+```
+```select top 5 customer_id,
+sum(cast(quantity as int) * cast(unitprice as decimal(10,2))) as totalpurchaseamount
+from [Cleaned Sales data]
+group by Customer_Id
+order by totalpurchaseamount desc;
+```
+```select region, 
+sum(cast(quantity as int) * cast(unitprice as decimal(10,2))) as totalsales,
+sum(cast(quantity as int) * cast(unitprice as decimal(10,2))) * 100.0/
+(select sum(cast(quantity as int) * cast(unitprice as decimal(10,2)))
+from [Cleaned Sales data]) 
+as percentageoftotalsales
+from [Cleaned Sales data]
+group by Region;
+```
+```select distinct product
+from [Cleaned Sales data]
+where product not in (
+select product 
+from [Cleaned Sales data]
+where orderdate>= dateadd(quarter,-1, getdate()) and orderdate<getdate());
 ```
 
