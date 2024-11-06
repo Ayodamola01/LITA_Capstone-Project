@@ -65,13 +65,12 @@ validate your queries.
   -  top-performing products
   -  regional breakdowns.
 
-- Here are the analysis to the instruction given. Starting with SQL.
+- Here are the analysis to the instruction given. Starting with **SQL**.
 
 
-
-'''Select * from [Cleaned sales data]
+```Select * from [Cleaned sales data]
 select product, sum(quantity*unitprice) as totalsales
 from [cleaned sales data]
 group by product
-'''
+```
 
