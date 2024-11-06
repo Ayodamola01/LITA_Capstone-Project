@@ -42,24 +42,24 @@ performance, and monthly sales trends. The goal is to produce an interactive Pow
 dashboard that highlights these findings.
 Instructions:
 1. Excel:
-o Perform an initial exploration of the sales data. Use pivot tables to summarize
+- Perform an initial exploration of the sales data. Use pivot tables to summarize
 total sales by product, region, and month.
-o Use Excel formulas to calculate metrics such as average sales per product and
+- Use Excel formulas to calculate metrics such as average sales per product and
 total revenue by region.
-o Create any other interesting report
+- Create any other interesting report
 2. SQL:
 Hint – You need to load the dataset into your SQL Server environment to write and
 validate your queries.
 Write queries to extract key insights based on the following questions.
-o retrieve the total sales for each product category.
-o find the number of sales transactions in each region.
-o find the highest-selling product by total sales value.
-o calculate total revenue per product.
-o calculate monthly sales totals for the current year.
-o find the top 5 customers by total purchase amount.
-o calculate the percentage of total sales contributed by each region.
-o identify products with no sales in the last quarter.
+- retrieve the total sales for each product category.
+- find the number of sales transactions in each region.
+- find the highest-selling product by total sales value.
+- calculate total revenue per product.
+- calculate monthly sales totals for the current year.
+- find the top 5 customers by total purchase amount.
+- calculate the percentage of total sales contributed by each region.
+- identify products with no sales in the last quarter.
 3. Power BI:
-o Create a dashboard that visualizes the insights found in Excel and SQL. The
+- Create a dashboard that visualizes the insights found in Excel and SQL. The
 dashboard should include a sales overview, top-performing products, and
 regional breakdowns.
