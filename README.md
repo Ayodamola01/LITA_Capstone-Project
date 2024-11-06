@@ -66,11 +66,8 @@ validate your queries.
   -  regional breakdowns.
 
 - Here are the analysis to the instruction given. Starting with SQL.
-  select*from [Cleaned Sales data]
-select product, sum(quantity*unitprice) as totalsales 
-from [Cleaned Sales data]
-group by Product
-  
+
+
 ''' SQL
 Select * from [Cleaned sales data]
 select product, sum(quantity*unitprice) as totalsales
