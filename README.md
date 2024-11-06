@@ -13,16 +13,17 @@ To get started, It is essential to have a good laptop have all the app necessary
 
 ## Use of the Apps
 - Microsoft Excel [Download here](https://www.microsoft.com)
--1 For data organization.
--2 For data analysis.
--3 For visualization.
+  - For data organization.
+  - For data analysis.
+  - For visualization.
   
 - Microsoft SQL Server Management [Download here](https://www.microsoft.com)
--1 For data extraction.
--2 For data manipulation.
--3 For querying.
+  - For data extraction.
+  - For data manipulation.
+  - For querying.
   
-- Power BI: [Download here](https://www.microsoft.com)
--1 For building interactive dashboards and reports.
--2 For visualization
-- **Github**: For portfolio building.
+- Power BI [Download here](https://www.microsoft.com)
+  - For building interactive dashboards and reports.
+  - For visualization
+    
+- Github is for portfolio building.
